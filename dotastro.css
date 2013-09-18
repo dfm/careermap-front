@@ -1,0 +1,60 @@
+body {
+  background: #fcfcfa;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #222;
+}
+
+#container {
+  text-align: center;
+}
+
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #ddd;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.location {
+  fill: #5AC8FA;
+  stroke: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.route {
+  fill: none;
+  stroke: #FF2D55;
+  stroke-width: 2px;
+  opacity: 0.3;
+}
+
+#year {
+  font-weight: bold;
+}
+
+#affiliation {
+  font-size: 12px;
+  color: #888;
+}
