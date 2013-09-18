@@ -84,6 +84,10 @@
               return "translate(" + projection(d.latlng) + ")";
             })
             .attr("r", 4)
+            .on("click", function (obj) {
+              window.open("http://labs.adsabs.harvard.edu/adsabs/abs/"+obj.code);
+              return false;
+            })
             .on("mouseover", function (obj) {
               d3.select("#author").text(obj.name);
               d3.select("#year").text(obj.year);
